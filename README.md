@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🇮🇳 Multilingual Civic Services Copilot
 
-# Run and deploy your AI Studio app
+### *An AI-powered conversational assistant helping citizens discover government schemes in their native language*
 
-This contains everything you need to run your app locally.
+<a href="YOUR_BOTPRESS_WEBCHAT_URL" target="_blank">
+  <button style="background-color:#4CAF50; color:white; padding:15px 32px; font-size:16px; border:none; border-radius:8px; cursor:pointer">
+    🚀 Try This Project
+  </button>
+</a>
 
-View your app in AI Studio: https://ai.studio/apps/a86654cc-a369-4b2c-8789-89efd20c16f9
+## 🎯 Problem Statement
 
-## Run Locally
+Millions of Indian citizens struggle to access government schemes due to:
+- **Language barriers** (70%+ rural citizens don't speak English)
+- **Scheme complexity** (500+ schemes, confusing eligibility)
+- **AI hallucination risks** (LLMs fabricating policy details)
+- **Privacy concerns** (PII exposure in chat logs)
 
-**Prerequisites:**  Node.js
+**Our solution:** A hallucination-free, multilingual voice+text copilot powered by RAG (Retrieval-Augmented Generation).
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| 🌐 **+7 Indian Languages** | Voice & text support for Hindi, Tamil, Telugu, Bengali, Marathi, Gujarati, Kannada, Malayalam, Punjabi, etc. |
+| 🎯 **Hallucination-Free** | Responses strictly grounded in verified scheme database |
+| 🎤 **Voice First** | ASR support for low-literacy users |
+| 🔒 **PII Protected** | Automatic Aadhaar/PAN redaction – no logs stored |
+| 📋 **Eligibility Check** | Real-time scheme matching based on user profile |
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🏗️ Architecture
