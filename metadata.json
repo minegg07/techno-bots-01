@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Civic Copilot",
+  "description": "RAG-powered conversational assistant for Indian government schemes with multilingual support (8 languages) and voice search.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
